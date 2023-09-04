@@ -1,8 +1,7 @@
-// import 'package:ship_tracker/utils/importer.dart';
-import 'package:flutter/material.dart';
-import 'package:webview_flutter/webview_flutter.dart';
+import 'package:ship_tracker/utils/importer.dart';
 
 class WebScreen extends StatelessWidget {
+  static String route = userInputRoute;
   WebScreen({super.key});
   final _webViewController = WebViewController()
     ..loadRequest(Uri.parse('https://www.marinetraffic.com'));

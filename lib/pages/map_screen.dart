@@ -32,7 +32,7 @@ class _MapScreenState extends State<MapScreen> {
   }) async {
     BitmapDescriptor customIcon = await BitmapDescriptor.fromAssetImage(
       const ImageConfiguration(
-        size: Size(42, 42),
+        size: Size(50, 50),
       ),
       'assets/icons/marker.png',
     );
@@ -110,7 +110,7 @@ class _MapScreenState extends State<MapScreen> {
             controller: _customInfoWindowController,
             height: 222,
             width: 300,
-            offset: 32,
+            offset: 70,
           ),
         ],
       ),

@@ -6,6 +6,7 @@ const userInputRoute = '/user-input';
 const detailRoute = '/detail';
 const mapRoute = '/live-map';
 const accountRoute = '/account';
+const webviewRoute = '/webview';
 
 Map<String, WidgetBuilder> allRouts = {
   launcherRoute: (context) => const LauncherScreen(),
@@ -14,4 +15,5 @@ Map<String, WidgetBuilder> allRouts = {
   detailRoute: (context) => const DetailScreen(),
   mapRoute: (context) => const MapScreen(),
   accountRoute: (context) => const AccountScreen(),
+  webviewRoute: (context) => WebScreen(),
 };
