@@ -8,6 +8,7 @@ export 'package:google_maps_flutter/google_maps_flutter.dart';
 export 'package:equatable/equatable.dart';
 export 'package:flutter_bloc/flutter_bloc.dart';
 export 'package:http/http.dart';
+export 'package:webview_flutter/webview_flutter.dart';
 
 // page
 export 'package:ship_tracker/pages/launcher_screen.dart';
@@ -16,6 +17,7 @@ export 'package:ship_tracker/pages/userinput_screen.dart';
 export 'package:ship_tracker/pages/detail_screen.dart';
 export 'package:ship_tracker/pages/map_screen.dart';
 export 'package:ship_tracker/pages/account_screen.dart';
+export 'package:ship_tracker/pages/web_screen.dart';
 
 // repo
 export 'package:ship_tracker/repo/cordinate_repo.dart';

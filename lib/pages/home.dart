@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   final List<Widget> _widgetOptions = [
     const UserInputScreen(),
-    const MapScreen(),
+    WebScreen(),
     const DetailScreen(),
     const AccountScreen(),
   ];
